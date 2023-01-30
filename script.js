@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     for (let card of cards) {
         cardsContent += `<div class='card'>
         <h2>${card.title}</h2>
+        <img src="${card.image}">
         <div>${card.character}</div>
         <div>${card.name}</div>
         <div>${card.superpowers}</div>
