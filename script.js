@@ -5,7 +5,7 @@ let json = `[{
     "superpowers": "intelligence"
 },{
     "title": "Cap",
-    "character": "Сaptain America",
+    "character": "Captain America",
     "name": "Stephen Rogers",
     "superpowers": "strength, endurance, regeneration"
 },{
@@ -37,8 +37,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     for (let card of cards) {
         cardsContent += `<div class='card'>
         <h2>${card.title}</h2>
-        <div>${card.author}</div>
-        <div>${card.year}</div>
+        <div>${card.character}</div>
+        <div>${card.name}</div>
+        <div>${card.superpowers}</div>
         </div>`;
     }
     document.getElementById("cardsContainer").innerHTML = cardsContent
