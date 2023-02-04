@@ -12,37 +12,61 @@ html {
 body {
     margin: 0;
     padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+header {
+    position: sticky; 
+    top: 0;
+    z-index: 2;
+    box-shadow: 0px 0px 20px 20px rgba(255, 254, 250, 0.5);
 }
 
 .logo {
-    height: 10vh;
+    height: 15vh;
     width: 100%;
-    background-color: rgb(249, 3, 44);
-    color: white;
-    text-align: center;
-    font-size: xx-large;
-    letter-spacing: 15px;
+    background-color: rgba(249, 3, 44, 0.95);
 }
 
-/* h1 {
-    margin: auto;  
-}  */
-
-.card {
-    width: 30vw;
-    padding: 10px;
-    padding-bottom: 35px;
-    border: 2px solid bisque;
-    border-radius: 10px;
+h1 {
     text-align: center;
-    background-color: blanchedalmond;
-    margin: 50px 10px;
+    font-size: 12vh;
+    letter-spacing: 15px;
+    color: white;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: larger;
 }
 
 #cardsContainer {
     width: 100vw;
-    justify-content: space-around;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     flex-direction: row;
     margin: 30px auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20vw;
+    margin: 70px 30px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border: 2px solid bisque;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(255, 254, 250, 0.5);
 }

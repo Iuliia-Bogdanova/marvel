@@ -23,17 +23,17 @@ let json = `[{
     "name": "Thor Odinson",
     "superpowers": "the power of a god, <br> the hammer Mjolnir"
 },{
-    "title": "Hawkeye",
-    "image": "img/Hawkeye.jpg",
-    "character": "Hawkeye",
-    "name": "Clint Barton",
-    "superpowers": "great shooter,<br> Natasha's best friend"
-},{
     "title": "Banner",
     "image": "img/Benner.jpg",
     "character": "Hulk",
     "name": "Bruce Banner",
     "superpowers": "intelligence,<br> superhuman strength,<br> flight"
+},{
+    "title": "Hawkeye",
+    "image": "img/Hawkeye.jpg",
+    "character": "Hawkeye",
+    "name": "Clint Barton",
+    "superpowers": "great shooter,<br> Natasha's best friend"
 }]`;
 
 document.addEventListener("DOMContentLoaded", function(event) {
@@ -43,10 +43,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     for (let card of cards) {
         cardsContent += `<div class='card'>
         <h2>${card.title}</h2>
-        <img src="${card.image}" style="width:250px" />
-        <div>${card.character}</div>
-        <div>${card.name}</div>
-        <div>${card.superpowers}</div>
+        <img src="${card.image}" style="width:20vw" />
+        <h3>${card.character}</h3>
+        <h3>${card.name}</h3>
+        <h4>${card.superpowers}</h4>
         </div>`;
     }
     document.getElementById("cardsContainer").innerHTML = cardsContent

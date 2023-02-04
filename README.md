@@ -22,3 +22,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 https://github.com/Iuliia-Bogdanova/avengers/blob/8ff5b9851606a57cc2bb21012495eb3f2355b176/script.js#L37 А,  ну вот ты собственно все и сделала, как я написал :кот_широко_улыбается: Осталось добавить поле image в каждый объект в JSON, указав ссылку на картинку. И добавить кртинку в верстку (см выше)
 script.js
     for (let card of cards) {
+      
+      done! (without localStorage :(
