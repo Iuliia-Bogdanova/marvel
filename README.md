@@ -1,6 +1,6 @@
-<h1 align="center">Hello, World! <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h2 align="center">Hello, World! <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h2>
 
-<h2 align="center">I'm Iuliia, frontend developer</h2>
+<h1 align="center">I'm Iuliia, frontend developer</h1>
 
 <h3 align="center">My skills:<h3>
 
@@ -53,7 +53,7 @@
 <h4>Thanks to ITGIRLSCHOOL</h4>
 <img src="./img/promo.gif" alt="Мarvel Superhero database">
 
-This site is live at https://iuliia-bogdanova.github.io/Clouds-and-moon-animation/
+This site is live at https://iuliia-bogdanova.github.io/marvel/
 
 <!-- # marvel
 week20 task1
